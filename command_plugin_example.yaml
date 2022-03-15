@@ -1,0 +1,9 @@
+plugins:
+  plugins.commands.is_rs_devices: {}
+devices:
+  instrument:
+    type:        socket
+    address:     localhost
+    port:        5025
+    timeout:     5
+# Translation Commands (Optional)
